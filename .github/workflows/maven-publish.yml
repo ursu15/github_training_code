@@ -4,6 +4,11 @@
 name: Maven Package
 
 on: push
+  push:
+    branches ignore: 
+  - Release1
+  - Release2
+   - Release3
   
 
 jobs:
