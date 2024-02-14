@@ -2,12 +2,10 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches: [ ignore Release1 Release2 Release3]
+  
 
 jobs:
-if : github.repository == /Release/**
 
   build:
 
